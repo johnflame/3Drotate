@@ -9,32 +9,38 @@
     transform-style: preserve-3d;
     animation: rotate 12s infinite;
 }
-img{
+.container > .iterms{
     height: 100%;
     width: 100%;
     position:absolute ;
 }
-img:nth-of-type(1) {
+.iterms:nth-of-type(1) {
+    background-color:black;
     transform:translateZ(300px);
     animation:rota 2s infinite;
 }
-img:nth-of-type(2) {
+.iterms:nth-of-type(2) {
+    background-color: red;
     transform: rotateY(60deg) translateZ(300px);
    animation:rota 2s infinite;
 }
-img:nth-of-type(3) {
+.iterms:nth-of-type(3) {
+    background-color: aquamarine;
     transform: rotateY(120deg) translateZ(300px);
    animation: rota 2s infinite;
 }
-img:nth-of-type(4) {
+.iterms:nth-of-type(4) {
+    background-color: cornflowerblue;
     transform: rotateY(180deg) translateZ(300px);
    animation: rota 2s infinite;
 }
-img:nth-of-type(5) {
+.iterms:nth-of-type(5) {
+    background-color:gold;
     transform: rotateY(240deg) translateZ(300px);
    animation: rota 2s infinite;
 }
-img:nth-of-type(6) {
+.iterms:nth-of-type(6) {
+    background-color: blueviolet;
     transform: rotateY(300deg) translateZ(300px);
    animation: rota 2s infinite;
 }
